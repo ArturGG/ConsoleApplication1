@@ -1,5 +1,4 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 
 template<int n> struct Factorial {
     static const int value = n * Factorial<n - 1>::value;
@@ -19,3 +18,7 @@ int main()
     std::cout << "Factorial of 7: " << Factorial<4>::value << std::endl;
     return 0;
 }
+
+/*
+    Here was givenys...
+*/ 
