@@ -13,9 +13,7 @@ int main()
     std::cout << "Factorial of 5: " << Factorial<5>::value << std::endl;
     std::cout << "Factorial of 6: " << Factorial<6>::value << std::endl;
     std::cout << "Factorial of 7: " << Factorial<7>::value << std::endl;
-    std::cout << "Factorial of 5: " << Factorial<5>::value << std::endl;
-    std::cout << "Factorial of 6: " << Factorial<6>::value << std::endl;
-    std::cout << "Factorial of 4: " << Factorial<4>::value << std::endl;
+    std::cout << "Factorial of 8: " << Factorial<8>::value << std::endl;
     return 0;
 }
 
